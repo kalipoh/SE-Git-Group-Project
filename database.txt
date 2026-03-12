@@ -1,0 +1,40 @@
+Database Structure
+
+User Table
+- id
+- name
+- email
+- password
+
+Product Table
+- id
+- product_name
+- price
+- stock
+
+Order Table
+- id
+- user_id
+- order_date
+- total_price
+- status
+
+Order Detail Table
+- id
+- order_id
+- product_id
+- quantity
+
+Payment Table
+- id
+- order_id
+- payment_method
+- payment_status
+- payment_date
+
+Relationships
+- One user can create many orders
+- One order can have many order details
+- One product can appear in many order details
+- One order has one payment
+ 
