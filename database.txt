@@ -6,6 +6,13 @@ User Table
 - email
 - password
 
+Admin Table
+- id
+- admin_name
+- email
+- password
+- role
+
 Product Table
 - id
 - product_name
