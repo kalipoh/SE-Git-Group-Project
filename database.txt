@@ -24,3 +24,17 @@ Order Detail Table
 - order_id
 - product_id
 - quantity
+
+Payment Table
+- id
+- order_id
+- payment_method
+- payment_status
+- payment_date
+
+Relationships
+- One user can create many orders
+- One order can have many order details
+- One product can appear in many order details
+- One order has one payment
+ 
