@@ -1,0 +1,14 @@
+Database Structure
+
+User Table
+- id
+- name
+- email
+- password
+
+Product Table
+- id
+- product_name
+- price
+- stock
+
