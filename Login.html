@@ -3,112 +3,90 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NeoTeam // Login</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="login.css"/>
+  <title>Login</title>
   <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
-        .register-box {
-            background: white;
-            padding: 30px;
-            width: 350px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+    body {
+      background: #f0f2f5;
+      font-family: sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-        h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px 36px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
 
-        input {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 28px;
+      color: #1a1a1a;
+    }
 
-        button {
-            width: 100%;
-            padding: 10px;
-            background: #007BFF;
-            border: none;
-            color: white;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+    input {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 12px 14px;
+      font-size: 0.95rem;
+      color: #333;
+      outline: none;
+      margin-bottom: 14px;
+      transition: border-color 0.2s;
+    }
 
-        button:hover {
-            background: #0056b3;
-        }
+    input:focus { border-color: #4f8ef7; }
+    input::placeholder { color: #aaa; }
 
-        .login-link {
-            text-align: center;
-            margin-top: 10px;
-        }
-    </style>
+    .btn {
+      width: 100%;
+      background: #4f8ef7;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 13px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 4px;
+      transition: background 0.2s;
+    }
+
+    .btn:hover { background: #3a7de8; }
+
+    .bottom {
+      text-align: center;
+      margin-top: 18px;
+      font-size: 0.88rem;
+      color: #666;
+    }
+
+    .bottom a {
+      color: #4f8ef7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
 </head>
 <body>
 
-  <div class="blob blob-1"></div>
-  <div class="blob blob-2"></div>
-
-  <div class="login-wrapper">
-
-    <a href="index.html" class="back-link">Back to Home</a>
-
-    <div class="login-card">
-      <div class="corner-tr"></div>
-      <div class="corner-bl"></div>
-
-      <div class="login-logo">NEO<span>//</span>TEAM</div>
-      <div class="login-subtitle">Secure Access Portal</div>
-
-      <div class="status-tag">
-        <div class="status-dot"></div>
-        System Online
-      </div>
-
-      <div class="form-group">
-        <label for="email">Email Address</label>
-        <div class="input-wrap">
-          <input type="email" id="email" placeholder="you@example.com"/>
-          <span class="input-icon">✉</span>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label for="password">Password</label>
-        <div class="input-wrap">
-          <input type="password" id="password" placeholder="••••••••"/>
-          <span class="input-icon">🔒</span>
-        </div>
-      </div>
-
-      <div class="form-options">
-        <label class="remember-label">
-          <input type="checkbox"/> Remember me
-        </label>
-        <a href="#" class="forgot-link">Forgot password?</a>
-      </div>
-
-      <button class="btn-login">Access System</button>
-
-      <div class="divider"><span>or</span></div>
-
-      <div class="register-row">
-        Don't have an account? <a href="#">Register here</a>
-      </div>
-
+  <div class="card">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email"/>
+    <input type="password" placeholder="Password"/>
+    <button class="btn">Login</button>
+    <div class="bottom">
+      Don't have an account? <a href="register.html">Register</a>
     </div>
   </div>
 
