@@ -13,11 +13,30 @@ Admin Table
 - password
 - role
 
+Category Table
+- id
+- category_name
+- description
+
+Address Table
+- id
+- user_id
+- recipient_name
+- phone_number
+- full_address
+- city
+- postal_code
+
 Product Table
 - id
 - product_name
 - price
 - stock
+
+Product Image Table
+- id
+- product_id
+- quantity
 
 Order Table
 - id
@@ -39,9 +58,23 @@ Payment Table
 - payment_status
 - payment_date
 
+Review Table 
+- id
+- user_id
+- product_id
+- rating
+- commment
+- review_date
+
 Relationships
+- One user can have many addresses
+- One user can have many cart items
 - One user can create many orders
+- One user can write many reviews
+- One category can have many products
+- One product can have many images
 - One order can have many order details
 - One product can appear in many order details
 - One order has one payment
- 
+- One address can be used in many orders
+- Admin can anage categories, products, and orders
