@@ -7,25 +7,25 @@ This project is created as part of the Software Engineering assignment to demons
 The goal of this project is to practice collaborative software development using Git and GitHub, including repository management, branching, committing changes, creating pull requests, and merging code into the main branch.
 
 ## Team Members
-- Member 1 (Repository Owner)
-- Member 2 (Collaborator)
-- Member 3 (Collaborator)
+- Member 1 = MUHAMMAD AHDA BRILIANTAMA
+- Member 2 = RESYA ANIANTRI PRIATNA
+- Member 3 = RIZKI ZAIMATAM RAHMAH
 
 ## Task Assignment
 
-### Member 1
+### Member 1 = MUHAMMAD AHDA BRILIANTAMA
 - Create the GitHub repository
 - Create and manage the README file
 - Invite collaborators to the repository
 - Review and merge pull requests
 
-### Member 2
+### Member 2 = RESYA ANIANTRI PRIATNA
 - Create a feature branch
 - Implement the login feature
 - Make at least 3 meaningful commits
 - Create a pull request to merge the feature into the main branch
 
-### Member 3
+### Member 3 = RIZKI ZAIMATAM RAHMAH
 - Create a feature branch
 - Implement the user interface or styling feature
 - Make at least 3 meaningful commits
